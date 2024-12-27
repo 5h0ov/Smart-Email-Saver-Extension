@@ -71,7 +71,6 @@ Hence should be ample space for an individual user tbh. There could be an option
 
 - No export/import functionality for saved emails
 - No search/filter functionality for saved emails
-- Whole Extension Pop-up refreshes after performing add/delete/clear actions (**This will be fixed soon WIP**)
 
 ## Security Features
 

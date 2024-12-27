@@ -1,6 +1,7 @@
 :root {
   --primary-color: #4a90e2;
   --danger-color: #dc3545;
+  --dev-color: #40ff00;
   --background: #F5F5F5;
   --text-color: #202124;
   --border-color: #DADCE0;
@@ -266,6 +267,11 @@ body.dark-theme .hover-tip {
 .github-icon.outdated {
   animation: pulse 2s infinite;
   color: var(--danger-color);
+}
+
+.github-icon.dev-mode {
+  color: var(--dev-color);
+  animation: pulse 2s infinite;
 }
 
 .version-notification {

@@ -22,15 +22,18 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
       return style.display !== 'none' && style.visibility !== 'hidden';
     });
     
+    console.log('emailInputs:', emailInputs);
+    console.log('visibleInput:', visibleInput);
+
     if (visibleInput) {
       visibleInput.value = request.email;
       visibleInput.dispatchEvent(new Event('input', { bubbles: true }));
       sendResponse({ success: true, message: "email field successfully filled" });
-  } else {
-      sendResponse({ success: false, message: "no email input field found on this page"  });
+    } else {
+        sendResponse({ success: false, message: "no email input field found on this page"  });
+    }
+    return true; // keeps the message channel open for async responses as saving email or field finding may take time
   }
-  return true; // keeps the message channel open for async responses as saving email or field finding may take time
-}
 });
 
 // form submission monitoring function
