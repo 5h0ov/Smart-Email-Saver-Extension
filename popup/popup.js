@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     chrome.storage.local.get('darkTheme', function(result) {
         if (result.darkTheme) {
             document.body.classList.add('dark-theme');
-            themeToggle.textContent = 'Toggle Dark';
+            themeToggle.textContent = 'Toggle Light';
         }
     });
 
