@@ -1,4 +1,4 @@
-# Smart Email Saver - Chromium Browser Extension (v1.0)
+# Smart Email Saver - Chromium Browser Extension (v1.1.1)
 
 A browser extension (based on Chromium) that automatically saves and manages email addresses you use across different websites, making form filling faster and more convenient.
 
@@ -38,6 +38,8 @@ Hence should be ample space for an individual user tbh. There could be an option
 4. Enable "Developer mode" (top right corner)
 5. Click "Load unpacked"
 6. Select the extension folder
+
+
 
 ### How to Update ( Using Git Bash )
 
