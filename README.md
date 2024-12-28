@@ -89,4 +89,5 @@ Hence should be ample space for an individual user tbh. There could be an option
 
 Feel free to submit issues and enhancement requests!
 
+**Note:** Before making changes change the value of the version field in the manifest.json to an appropriate version number and then **reload** the extension from your Extension Settings Page to show the Dev Mode in the extension pop-up so that you dont get confused.
 
